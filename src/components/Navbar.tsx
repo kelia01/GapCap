@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Navbar = () => {
   return (
@@ -12,9 +13,7 @@ const Navbar = () => {
           <li>Home</li>
           <li>Add Student</li>
         </ul>
-        <button className="text-[#83C727] border px-3 py-1.5 rounded-lg shadow">
-          All Students
-        </button>
+        <Button word="All Students"/>
       </div>
     </div>
   );
