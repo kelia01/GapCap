@@ -1,9 +1,23 @@
-import React from 'react'
+import React from "react";
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <div className="px-10 py-3 flex space-x-56">
+      <div className="flex gap-1.5">
+        <img src="./public/logo.png" alt="Logo" className="w-6 h-6" />
+        <h2 className="font-bold text-[#004B2F]">STUDENTSYNC</h2>
+      </div>
+      <div className="flex gap-15">
+        <ul className="flex gap-15 font-[Poppins]">
+          <li>Home</li>
+          <li>Add Student</li>
+        </ul>
+        <button className="text-[#83C727] border px-3 py-1.5 rounded-lg shadow">
+          All Students
+        </button>
+      </div>
+    </div>
+  );
+};
 
-export default Navbar
+export default Navbar;
